@@ -49,6 +49,15 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Build repo</name>
+            <url>file://${basedir}/../maven-repo</url>
+        </repository>
+    </distributionManagement>
+
+
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
